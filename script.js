@@ -1,0 +1,1 @@
+document.getElementById("year").textContent=new Date().getFullYear();const f=document.getElementById("waitlistForm"),s=document.getElementById("success");f.addEventListener("submit",e=>{e.preventDefault();s.hidden=false;});
